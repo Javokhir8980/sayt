@@ -1,0 +1,105 @@
+ body {
+     background-image: url(ph.jpg);
+ }
+.id {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    background-color: rgb(21, 194, 99);
+    opacity: 0.5;
+    width: 100%;
+    height: 200px;
+    color: white;
+}
+img {
+    opacity: 0.7;
+}
+.text {
+    font-size: x-large;
+    text-align: center;
+    padding: 10px;
+}
+
+.by {
+    position: absolute;
+    left: 45%;
+}
+
+.link {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    color: white;
+    opacity: 0.8;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+    opacity: 0.5;
+}
+
+.Link {
+    position: absolute;
+    left: 95%;
+    opacity: 0.5;
+}
+a:hover {
+    background-color: red;
+    transform: translateX(10px);
+    transition: 1s;
+    border-radius: 30%;
+}
+.about {
+    background-color: rgb(229, 229, 236);
+    width: 40%;
+    height: auto;
+}
+
+.grey {
+    margin-left: 15px;
+}
+
+.ad {
+    font-size: x-large;
+}
+
+.photo {
+    font-size: small;
+}
+
+.image1 {
+    width: 97%;
+    height: 300px;
+}
+
+.More {
+    font-size: large;
+}
+
+.image2 {
+    width: 97%;
+    height: 100px;
+}
+.white {
+    margin-left: 15px;
+    background-color: white;
+    width: 100%;
+}
+.image3 {
+    width: 100%;
+    height: 300px;
+}
+.footer {
+    background-color: rgba(190, 190, 190, 0.671);
+    width: 100%;
+    height:auto;
+    opacity: 0.9;
+    
+}
+footer {
+    margin-left: 5px;
+}
